@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct PTRScrollView<Content: View>: View {
-     
+    
     private struct Refresh {
         var startOffset : CGFloat = 0
         var offset : CGFloat = 0
@@ -20,7 +20,7 @@ struct PTRScrollView<Content: View>: View {
         self.onUpdate = onUpdate
     }
     
-    var body: some View{
+    var body: some View {
         
         ScrollView(.vertical, showsIndicators: false, content: {
             GeometryReader { reader -> AnyView in
