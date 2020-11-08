@@ -1,5 +1,4 @@
 import SwiftUI
-import PTRScrollView
 
 struct ContentView: View {
     
