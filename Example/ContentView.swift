@@ -17,7 +17,7 @@ struct ContentView: View {
             
             Divider()
             
-            PTRScrollView {
+            PushScrollView {
                 VStack{
                     ForEach(records, id: \.self) { record in
                         HStack{
