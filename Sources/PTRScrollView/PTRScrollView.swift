@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct PTRScrollView<Content: View>: View {
-    
+     
     private struct Refresh {
         var startOffset : CGFloat = 0
         var offset : CGFloat = 0
